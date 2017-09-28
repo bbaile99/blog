@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tags &middot; John Doe&#39;s blog</title>
+        <title>John Doe&#39;s blog</title>
         <meta name="author">
         <meta name="description" content="The awesome blog of John Doe.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,45 +39,72 @@
           </div>
         </header>
 
+
 <div class="container clearfix">
     <main role="main" class="content">
-    <a class="btn home" href="/" title="Back to home">&laquo; Back to home</a>
-    <h2>Tags:</a>
-    <ul>
-     
-        <li>
-            <a href="hugo">hugo (2)</a>
-        </li>
+        <article class="post">
+            <a class="btn home" href="/" title="Back to home">&laquo; Back to home</a>
+            
+<h1><a href="/post/welcome-to-data-science/" title="Welcome to Data Science">Welcome to Data Science</a></h1>
+
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.09.28">2017.09.28</time>
+
+    &middot; Tagged in
+        
+        <a href="/tags/sqldf">sqldf</a>, 
+        
+        <a href="/tags/intro">intro</a>
+        
     
-        <li>
-            <a href="intro">intro (1)</a>
-        </li>
+
+</span>
+</footer>
+
+            <p>Welcome to Breonna’s blog! This blog will be information and examples that are provided in Dr. Redmond’s Intro to Data Science class at Mercyhurst University.</p>
+<p>The examples for the earlier work with SQL are done on my other website…. <a href="https://bbaile99.github.io/website/" class="uri">https://bbaile99.github.io/website/</a></p>
+
+            <ul class="share-buttons">
+    <li>Share this article:</li>
+    <li>
+        <a class="icon-facebook-squared" href="https://www.facebook.com/sharer/sharer.php?u=%2fpost%2fwelcome-to-data-science%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook"></a>
+    </li>
+    <li>
+        <a class="icon-twitter" href="https://twitter.com/share?text=Welcome%20to%20Data%20Science&amp;url=%2fpost%2fwelcome-to-data-science%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Tweet this article"></a>
+    </li>
+    <li>
+        <a class="icon-gplus" href="https://plus.google.com/share?url=%2fpost%2fwelcome-to-data-science%2f" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google&#43;"></a>
+    </li>
+    <li>
+        <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=%2fpost%2fwelcome-to-data-science%2f&title=Welcome%20to%20Data%20Science" onclick="window.open(this.href, 'linkedin-share', 'width=600,height=494');return false;" title="Share on Linkedin"></a>
+    </li>
+</ul>
+
+        </article>
+        
+        <div class="comments">
+            <h3>Comments</h3>
+            <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
     
-        <li>
-            <a href="jekyll">jekyll (1)</a>
-        </li>
     
-        <li>
-            <a href="migration">migration (1)</a>
-        </li>
     
-        <li>
-            <a href="plot">plot (1)</a>
-        </li>
-    
-        <li>
-            <a href="r-markdown">r-markdown (1)</a>
-        </li>
-    
-        <li>
-            <a href="regression">regression (1)</a>
-        </li>
-    
-        <li>
-            <a href="sqldf">sqldf (1)</a>
-        </li>
-    
-    </ul>
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "spf13" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+        
     </main>
     <aside class="author">
   <img class="profile-image" src="/img/profile-image.png" alt="John Doe" />
@@ -113,6 +140,7 @@
 </aside>
 
 </div>
+
 <footer class="main-footer">
   <div class="container clearfix">
         <a class="icon-rss" href="/post/index.xml" title="RSS"></a>

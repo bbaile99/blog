@@ -1,0 +1,18 @@
+---
+title: Welcome to Data Science
+author: Breonna Bailey
+date: '2017-09-28'
+slug: welcome-to-data-science
+categories:
+  - R
+tags:
+  - sqldf
+  - intro
+---
+
+
+Welcome to Breonna's blog! 
+This blog will be information and examples that are provided in Dr. Redmond's Intro to Data Science class at Mercyhurst University. 
+
+The examples for the earlier work with SQL are done on my other website.... https://bbaile99.github.io/website/
+

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Welcome to Data Science</title>
+      <link>/post/welcome-to-data-science/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/welcome-to-data-science/</guid>
+      <description>Welcome to Breonna’s blog! This blog will be information and examples that are provided in Dr. Redmond’s Intro to Data Science class at Mercyhurst University.
+The examples for the earlier work with SQL are done on my other website…. https://bbaile99.github.io/website/</description>
+    </item>
     
     <item>
       <title>Migrate from Jekyll</title>
