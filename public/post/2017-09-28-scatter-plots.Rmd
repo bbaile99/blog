@@ -1,0 +1,41 @@
+---
+title: Scatter Plots
+author: Breonna Bailey
+date: '2017-09-28'
+slug: scatter-plots
+categories:
+  - scatter
+  - R
+tags:
+  - scatter
+  - plots
+  - graphs
+---
+```{r message=FALSE,warning=FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+
+```
+
+
+```{r}
+query<-"SELECT playerID,sum(HR) AS career_hr,sum(SO) AS career_so
+FROM Batting
+GROUP BY playerID
+HAVING sum(HR)>=400"
+
+result<-sqldf(query)
+
+```
+
+
+```{r}
+ggplot()+
+  geom_point(data=result,aes(x=career_so,y=career_hr),size=3,color="blue")+
+  ggtitle("Career Strikeouts VS Homeruns for Great Hitters")+
+  xlab("career strikeouts")+
+  ylab("career homeruns")
+
+```
+

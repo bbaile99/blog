@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scatter on John Doe&#39;s blog</title>
+    <link>/categories/scatter/</link>
+    <description>Recent content in Scatter on John Doe&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/scatter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scatter Plots</title>
+      <link>/post/scatter-plots/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/scatter-plots/</guid>
+      <description>library(Lahman)library(sqldf)library(ggplot2)query&amp;lt;-&amp;quot;SELECT playerID,sum(HR) AS career_hr,sum(SO) AS career_soFROM BattingGROUP BY playerIDHAVING sum(HR)&amp;gt;=400&amp;quot;result&amp;lt;-sqldf(query)ggplot()+geom_point(data=result,aes(x=career_so,y=career_hr),size=3,color=&amp;quot;blue&amp;quot;)+ggtitle(&amp;quot;Career Strikeouts VS Homeruns for Great Hitters&amp;quot;)+xlab(&amp;quot;career strikeouts&amp;quot;)+ylab(&amp;quot;career homeruns&amp;quot;)</description>
+    </item>
+    
+  </channel>
+</rss>

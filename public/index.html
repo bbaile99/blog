@@ -45,6 +45,42 @@
         
             <article class="post">
     
+<h1><a href="/post/scatter-plots/" title="Scatter Plots">Scatter Plots</a></h1>
+
+<footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.09.28">2017.09.28</time>
+
+    &middot; Tagged in
+        
+        <a href="/tags/scatter">scatter</a>, 
+        
+        <a href="/tags/plots">plots</a>, 
+        
+        <a href="/tags/graphs">graphs</a>
+        
+    
+
+</span>
+</footer>
+
+    <p>library(Lahman)
+library(sqldf)
+library(ggplot2)
+query&lt;-&quot;SELECT playerID,sum(HR) AS career_hr,sum(SO) AS career_so
+FROM Batting
+GROUP BY playerID
+HAVING sum(HR)&gt;=400&quot;
+result&lt;-sqldf(query)
+ggplot()+
+geom_point(data=result,aes(x=career_so,y=career_hr),size=3,color=&quot;blue&quot;)+
+ggtitle(&quot;Career Strikeouts VS Homeruns for Great Hitters&quot;)+
+xlab(&quot;career strikeouts&quot;)+
+ylab(&quot;career homeruns&quot;)&hellip;</p>
+    <a href="/post/scatter-plots/" title="Scatter Plots">Read more &raquo;</a>
+</article>
+
+        
+            <article class="post">
+    
 <h1><a href="/post/welcome-to-data-science/" title="Welcome to Data Science">Welcome to Data Science</a></h1>
 
 <footer class="post-info">Posted on <span class="post-meta"><time datetime="2017.09.28">2017.09.28</time>
@@ -204,7 +240,7 @@ We&rsquo;ll start with creating a new site with a very basic template.&hellip;</
     </main>
 
     <aside class="author">
-  <img class="profile-image" src="/img/profile-image.png" alt="John Doe" />
+  <img class="profile-image" src="/img/profile.jpg" alt="John Doe" />
   <p class="name">by 
   <strong>John Doe</strong></p>
   <p class="address">Earth</p>
