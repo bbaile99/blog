@@ -13,9 +13,9 @@ theme = "hugo-minimalist-theme"
 # with the hugo server command
 
 [params]
-    site_author = "John Doe"
+    site_author = "Breonna Bailey"
     site_description = "The awesome blog of John Doe."
-    location = "Earth"
+    location = "Mercyhurst University"
     # Link custom assets relative to /static
     avatar = "img/profile.jpg"
     header_background = "img/desk.jpg"
