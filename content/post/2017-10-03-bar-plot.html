@@ -1,0 +1,35 @@
+---
+title: Bar Plot
+author: Breonna Bailey
+date: '2017-10-03'
+slug: bar-plot
+categories:
+  - bar
+  - plot
+  - R
+tags:
+  - graphs
+  - intro
+---
+
+
+
+<pre class="r"><code>library(Lahman)
+library(sqldf)
+library(ggplot2)</code></pre>
+<p>Homerun Distribution by Team in 1980</p>
+<pre class="r"><code>query&lt;-&quot;SELECT name,HR
+FROM Teams
+WHERE yearID=1980
+ORDER BY HR&quot;
+
+result&lt;-sqldf(query)
+
+result$name&lt;-factor(result$name,levels=result$name)</code></pre>
+<pre class="r"><code>ggplot()+
+  geom_bar(data=result,aes(x=name,y=HR),stat=&#39;identity&#39;,color=&quot;blue&quot;,fill=&quot;white&quot;)+
+  coord_flip()+
+  ylab(&quot;homeruns&quot;)+
+  xlab(&quot;teams&quot;)+
+  ggtitle(&quot;1980 Team Homerun Distribution&quot;)</code></pre>
+<p><img src="/post/2017-10-03-bar-plot_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>

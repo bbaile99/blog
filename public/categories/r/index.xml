@@ -1,45 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R on John Doe&#39;s blog</title>
-    <link>/categories/r/</link>
-    <description>Recent content in R on John Doe&#39;s blog</description>
+    <title>R on Bre&#39;s blog</title>
+    <link>https://bresblog.netlify.com/categories/r/</link>
+    <description>Recent content in R on Bre&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bresblog.netlify.com/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bar Plot</title>
+      <link>https://bresblog.netlify.com/post/bar-plot/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bresblog.netlify.com/post/bar-plot/</guid>
+      <description>library(Lahman)library(sqldf)library(ggplot2)Homerun Distribution by Team in 1980
+query&amp;lt;-&amp;quot;SELECT name,HRFROM TeamsWHERE yearID=1980ORDER BY HR&amp;quot;result&amp;lt;-sqldf(query)result$name&amp;lt;-factor(result$name,levels=result$name)ggplot()+geom_bar(data=result,aes(x=name,y=HR),stat=&amp;#39;identity&amp;#39;,color=&amp;quot;blue&amp;quot;,fill=&amp;quot;white&amp;quot;)+coord_flip()+ylab(&amp;quot;homeruns&amp;quot;)+xlab(&amp;quot;teams&amp;quot;)+ggtitle(&amp;quot;1980 Team Homerun Distribution&amp;quot;)</description>
+    </item>
+    
+    <item>
+      <title>Histograms</title>
+      <link>https://bresblog.netlify.com/post/histograms/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bresblog.netlify.com/post/histograms/</guid>
+      <description>library(Lahman)library(sqldf)library(ggplot2)Distribution of the weight of baseball players
+query&amp;lt;-&amp;quot;SELECT weightFROM Master&amp;quot;result&amp;lt;-sqldf(query)ggplot()+geom_histogram(data=result,aes(x=weight),color=&amp;quot;blue&amp;quot;,fill=&amp;quot;white&amp;quot;,bins=50)+ggtitle(&amp;quot;Body-weight Distribution for Baseball Players&amp;quot;)</description>
+    </item>
+    
+    <item>
+      <title>Time Series</title>
+      <link>https://bresblog.netlify.com/post/time-series/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://bresblog.netlify.com/post/time-series/</guid>
+      <description>library(Lahman)library(sqldf)library(ggplot2)Babe Ruth’s homeruns during his career
+query&amp;lt;-&amp;quot;SELECT yearID,HRFROM BattingWHERE playerID=&amp;#39;ruthba01&amp;#39;&amp;quot;result&amp;lt;-sqldf(query)ggplot()+geom_point(data=result,aes(x=yearID,y=HR))+geom_line(data=result,aes(x=yearID,y=HR))+ggtitle(&amp;quot;Ruth&amp;#39;s Homeruns Totals Throughout the Years&amp;quot;)+xlab(&amp;quot;year&amp;quot;)+ylab(&amp;quot;homeruns&amp;quot;)</description>
+    </item>
+    
+    <item>
       <title>Scatter Plots</title>
-      <link>/post/scatter-plots/</link>
+      <link>https://bresblog.netlify.com/post/scatter-plots/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/scatter-plots/</guid>
+      <guid>https://bresblog.netlify.com/post/scatter-plots/</guid>
       <description>library(Lahman)library(sqldf)library(ggplot2)query&amp;lt;-&amp;quot;SELECT playerID,sum(HR) AS career_hr,sum(SO) AS career_soFROM BattingGROUP BY playerIDHAVING sum(HR)&amp;gt;=400&amp;quot;result&amp;lt;-sqldf(query)ggplot()+geom_point(data=result,aes(x=career_so,y=career_hr),size=3,color=&amp;quot;blue&amp;quot;)+ggtitle(&amp;quot;Career Strikeouts VS Homeruns for Great Hitters&amp;quot;)+xlab(&amp;quot;career strikeouts&amp;quot;)+ylab(&amp;quot;career homeruns&amp;quot;)</description>
     </item>
     
     <item>
       <title>Welcome to Data Science</title>
-      <link>/post/welcome-to-data-science/</link>
+      <link>https://bresblog.netlify.com/post/welcome-to-data-science/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/welcome-to-data-science/</guid>
+      <guid>https://bresblog.netlify.com/post/welcome-to-data-science/</guid>
       <description>Welcome to Breonna’s blog! This blog will be information and examples that are provided in Dr. Redmond’s Intro to Data Science class at Mercyhurst University.
 The examples for the earlier work with SQL are done on my other website…. https://bbaile99.github.io/website/</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
     
   </channel>

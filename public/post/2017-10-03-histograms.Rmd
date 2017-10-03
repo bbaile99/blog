@@ -1,0 +1,33 @@
+---
+title: Histograms
+author: Breonna Bailey
+date: '2017-10-03'
+slug: histograms
+categories:
+  - histograms
+  - R
+tags:
+  - graphs
+---
+```{r message=FALSE,warning=FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+
+```
+
+Distribution of the weight of baseball players
+
+```{r}
+query<-"SELECT weight
+FROM Master"
+
+result<-sqldf(query)
+```
+
+```{r warning=FALSE}
+ggplot()+
+  geom_histogram(data=result,aes(x=weight),color="blue",fill="white",bins=50)+
+  ggtitle("Body-weight Distribution for Baseball Players")
+```
+

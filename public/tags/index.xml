@@ -1,113 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on John Doe&#39;s blog</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on John Doe&#39;s blog</description>
+    <title>Tags on Bre&#39;s blog</title>
+    <link>https://bresblog.netlify.com/tags/</link>
+    <description>Recent content in Tags on Bre&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
-    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bresblog.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Graphs</title>
-      <link>/tags/graphs/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://bresblog.netlify.com/tags/graphs/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/graphs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
-      
-      <guid>/tags/hugo/</guid>
+      <guid>https://bresblog.netlify.com/tags/graphs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intro</title>
-      <link>/tags/intro/</link>
-      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      <link>https://bresblog.netlify.com/tags/intro/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/intro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>/tags/jekyll/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
-      
-      <guid>/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Migration</title>
-      <link>/tags/migration/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
-      
-      <guid>/tags/migration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Plot</title>
-      <link>/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/plot/</guid>
+      <guid>https://bresblog.netlify.com/tags/intro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plots</title>
-      <link>/tags/plots/</link>
+      <link>https://bresblog.netlify.com/tags/plots/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/plots/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/regression/</guid>
+      <guid>https://bresblog.netlify.com/tags/plots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scatter</title>
-      <link>/tags/scatter/</link>
+      <link>https://bresblog.netlify.com/tags/scatter/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/scatter/</guid>
+      <guid>https://bresblog.netlify.com/tags/scatter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sqldf</title>
-      <link>/tags/sqldf/</link>
+      <link>https://bresblog.netlify.com/tags/sqldf/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sqldf/</guid>
+      <guid>https://bresblog.netlify.com/tags/sqldf/</guid>
       <description></description>
     </item>
     

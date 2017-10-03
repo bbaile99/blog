@@ -1,0 +1,41 @@
+---
+title: Time Series
+author: Breonna Bailey
+date: '2017-10-03'
+slug: time-series
+categories:
+  - time
+  - series
+  - R
+  - graphs
+tags:
+  - graphs
+  - intro
+---
+```{r message=FALSE,warning=FALSE}
+library(Lahman)
+library(sqldf)
+library(ggplot2)
+
+```
+Babe Ruth's homeruns during his career
+
+
+```{r}
+query<-"SELECT yearID,HR
+FROM Batting
+WHERE playerID='ruthba01'"
+
+result<-sqldf(query)
+
+```
+
+```{r warning=FALSE}
+ggplot()+
+  geom_point(data=result,aes(x=yearID,y=HR))+
+  geom_line(data=result,aes(x=yearID,y=HR))+
+  ggtitle("Ruth's Homeruns Totals Throughout the Years")+
+  xlab("year")+
+  ylab("homeruns")
+```
+

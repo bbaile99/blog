@@ -1,6 +1,6 @@
 baseurl = "https://bresblog.netlify.com/"
 languageCode = "en-us"
-title = "John Doe's blog"
+title = "Bre's blog"
 # Define how many pages appear per site
 paginate = 10
 # Enable comments powered by Disqus by entering your disqus shortname
@@ -14,7 +14,7 @@ theme = "hugo-minimalist-theme"
 
 [params]
     site_author = "Breonna Bailey"
-    site_description = "The awesome blog of John Doe."
+    site_description = "Intro to Data Science Blog"
     location = "Mercyhurst University"
     # Link custom assets relative to /static
     avatar = "img/profile.jpg"
@@ -31,11 +31,6 @@ theme = "hugo-minimalist-theme"
     # Add your social network accounts to the profile section on the left
     # by entering your username. The links to your account will be
     # create automatically.
-    twitter   = "spf13"
-    facebook  = ""
-    linkedin  = ""
-    behance   = ""
-    dribbble  = ""
-    instagram = ""
+    instagram = "@bree_bailey"
     github    = "digitalcraftsman"
     gplus     = ""
