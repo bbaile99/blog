@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bre&#39;s blog</title>
-    <link>https://bresblog.netlify.com/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Bre&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bresblog.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bar</title>
-      <link>https://bresblog.netlify.com/categories/bar/</link>
+      <link>/categories/bar/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/bar/</guid>
+      <guid>/categories/bar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Graphs</title>
-      <link>https://bresblog.netlify.com/categories/graphs/</link>
+      <link>/categories/graphs/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/graphs/</guid>
+      <guid>/categories/graphs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Histograms</title>
-      <link>https://bresblog.netlify.com/categories/histograms/</link>
+      <link>/categories/histograms/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/histograms/</guid>
+      <guid>/categories/histograms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plot</title>
-      <link>https://bresblog.netlify.com/categories/plot/</link>
+      <link>/categories/plot/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/plot/</guid>
+      <guid>/categories/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://bresblog.netlify.com/categories/r/</link>
+      <link>/categories/r/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/r/</guid>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scatter</title>
-      <link>https://bresblog.netlify.com/categories/scatter/</link>
+      <link>/categories/scatter/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/scatter/</guid>
+      <guid>/categories/scatter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Series</title>
-      <link>https://bresblog.netlify.com/categories/series/</link>
+      <link>/categories/series/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/series/</guid>
+      <guid>/categories/series/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Time</title>
-      <link>https://bresblog.netlify.com/categories/time/</link>
+      <link>/categories/time/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/categories/time/</guid>
+      <guid>/categories/time/</guid>
       <description></description>
     </item>
     

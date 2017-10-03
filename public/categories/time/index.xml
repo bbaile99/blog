@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time on Bre&#39;s blog</title>
-    <link>https://bresblog.netlify.com/categories/time/</link>
+    <link>/categories/time/</link>
     <description>Recent content in Time on Bre&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bresblog.netlify.com/categories/time/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/time/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Time Series</title>
-      <link>https://bresblog.netlify.com/post/time-series/</link>
+      <link>/post/time-series/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/post/time-series/</guid>
+      <guid>/post/time-series/</guid>
       <description>library(Lahman)library(sqldf)library(ggplot2)Babe Ruth’s homeruns during his career
 query&amp;lt;-&amp;quot;SELECT yearID,HRFROM BattingWHERE playerID=&amp;#39;ruthba01&amp;#39;&amp;quot;result&amp;lt;-sqldf(query)ggplot()+geom_point(data=result,aes(x=yearID,y=HR))+geom_line(data=result,aes(x=yearID,y=HR))+ggtitle(&amp;quot;Ruth&amp;#39;s Homeruns Totals Throughout the Years&amp;quot;)+xlab(&amp;quot;year&amp;quot;)+ylab(&amp;quot;homeruns&amp;quot;)</description>
     </item>

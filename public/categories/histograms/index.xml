@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Histograms on Bre&#39;s blog</title>
-    <link>https://bresblog.netlify.com/categories/histograms/</link>
+    <link>/categories/histograms/</link>
     <description>Recent content in Histograms on Bre&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Powered by [Hugo](http://gohugo.io).</copyright>
     <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://bresblog.netlify.com/categories/histograms/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/histograms/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Histograms</title>
-      <link>https://bresblog.netlify.com/post/histograms/</link>
+      <link>/post/histograms/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://bresblog.netlify.com/post/histograms/</guid>
+      <guid>/post/histograms/</guid>
       <description>library(Lahman)library(sqldf)library(ggplot2)Distribution of the weight of baseball players
 query&amp;lt;-&amp;quot;SELECT weightFROM Master&amp;quot;result&amp;lt;-sqldf(query)ggplot()+geom_histogram(data=result,aes(x=weight),color=&amp;quot;blue&amp;quot;,fill=&amp;quot;white&amp;quot;,bins=50)+ggtitle(&amp;quot;Body-weight Distribution for Baseball Players&amp;quot;)</description>
     </item>

@@ -3,128 +3,128 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bresblog.netlify.com/post/bar-plot/</loc>
+    <loc>/post/bar-plot/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/post/histograms/</loc>
+    <loc>/post/histograms/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/post/time-series/</loc>
+    <loc>/post/time-series/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/post/scatter-plots/</loc>
+    <loc>/post/scatter-plots/</loc>
     <lastmod>2017-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/post/welcome-to-data-science/</loc>
+    <loc>/post/welcome-to-data-science/</loc>
     <lastmod>2017-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/categories/bar/</loc>
+    <loc>/categories/bar/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/</loc>
+    <loc>/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/tags/graphs/</loc>
+    <loc>/tags/graphs/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/categories/graphs/</loc>
+    <loc>/categories/graphs/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/categories/histograms/</loc>
+    <loc>/categories/histograms/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/tags/intro/</loc>
+    <loc>/tags/intro/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/categories/plot/</loc>
+    <loc>/categories/plot/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/tags/plots/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bresblog.netlify.com/post/</loc>
-    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bresblog.netlify.com/categories/r/</loc>
-    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bresblog.netlify.com/tags/scatter/</loc>
+    <loc>/tags/plots/</loc>
     <lastmod>2017-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/categories/scatter/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bresblog.netlify.com/categories/series/</loc>
+    <loc>/post/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/tags/sqldf/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bresblog.netlify.com/tags/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bresblog.netlify.com/categories/time/</loc>
+    <loc>/tags/scatter/</loc>
+    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/scatter/</loc>
+    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/series/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sqldf/</loc>
+    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/time/</loc>
     <lastmod>2017-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
